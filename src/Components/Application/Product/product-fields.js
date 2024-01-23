@@ -176,6 +176,7 @@ export const allProductFieldDetails = [
     placeholder: "UOM value",
     type: "input",
     required: true,
+    hasMicIcon: true,
   },
   {
     id: "length",
@@ -184,6 +185,7 @@ export const allProductFieldDetails = [
     type: "input",
     maxLength: 6,
     required: true,
+    hasMicIcon: true,
   },
   {
     id: "breadth",
@@ -192,6 +194,7 @@ export const allProductFieldDetails = [
     type: "input",
     maxLength: 6,
     required: true,
+    hasMicIcon: true,
   },
   {
     id: "height",
@@ -200,6 +203,7 @@ export const allProductFieldDetails = [
     type: "input",
     maxLength: 6,
     required: true,
+    hasMicIcon: true,
   },
   {
     id: "weight",
@@ -208,6 +212,13 @@ export const allProductFieldDetails = [
     type: "input",
     maxLength: 3,
     required: true,
+    class: 'md:col-span-2 col-span-6',
+    hasMicIcon: true,
+  },
+  {
+    id: "divider",
+    class: "col-span-6",
+    type: "divider",
   },
   {
     id: "returnWindow",
